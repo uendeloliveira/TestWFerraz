@@ -9,9 +9,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="preload" href="iFoodRCTitulos-Thin.woff2" as="font" type="font/woff2" crossorigin>
     <title>Teste</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <header>
+    <header class="bigheader">
         <div class="logo logomq">
             <img src="./images/logo.webp" alt="iFood para parceiros logo">
         </div>
@@ -30,39 +31,71 @@
             </div>
         </div>
     </header>
+    <header class="smallheader"><div class="partner-buttonmq"><button>Seja um parceiro</button></div><div class="menuline2"><div class="menumq"><button><i class="fa-solid fa-bars menu-on" style="color: #000000;"></i><i class="fa-solid fa-x menu-off"></i></button><ul class="hamburger-menu"><li>Categorias <i class="fa-solid fa-angle-down"></i></li><li>Materiais gratuitos <i class="fa-solid fa-angle-down"></i></li><li>Conheça o iFood <i class="fa-solid fa-angle-down"></i></li></ul></div><div class="logomq"><img src="./images/logo.webp" alt="iFood para parceiros logo"></div><div class="search-input search-inputmq"><input type="text" placeholder="Busca"><button><i class="fa-solid fa-magnifying-glass"></i></button></div></div></header>
     <div class="border"></div>
     <section class="section1">
-        <div class="titlle">
-            <h2 class="text1">Seu negócio pede</h2>
-            <div class="lupatext"><i class="fa-solid fa-magnifying-glass"></i></div>
-            <h1 class="text2">destaque</h1>
-            <h1 class="text3">no app</h1>
-            <a href="#"><h2 class="text4"><strong>Quero + visitas</strong> no cardápio <i class="fa-solid fa-hand-pointer handpointer"></i></h2></a>
+        <div class="box1">
+            <div class="box2">
+                <h2 class="text1">Seu negócio pede</h2>
+                <div class="search-ico"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <h1 class="text2">destaque</h1>
+                <h1 class="text3">no app</h1>
+                <a href="#"><h2 class="text4"><strong>Quero + visitas</strong> no cardápio <i class="fa-solid fa-hand-pointer handpointer"></i></h2></a>
+                <img class="imgtest" src="./images/img1.webp" alt="iFood images">
+            </div>
         </div>
-        <img class="img1" src="./images/img1.webp" alt="iFood images">
     </section>
     <section class="section2">
         <div class="carrossel">
             <button class="before"><i class="fa-solid fa-chevron-left"></i></button>
-            <div class="point1"></div>
-            <div class="point2"></div>
-            <div class="point3"></div>
-            <div class="point4"></div>
-            <div class="point5"></div>
-            <div class="point6"></div>
+            <div class="points">
+                <div class="point1 selected"></div>
+                <div class="point2"></div>
+                <div class="point3"></div>
+                <div class="point4"></div>
+                <div class="point5"></div>
+                <div class="point6"></div>
+            </div>
+            <div class="balloon1">
+                <p class="slide-bb1">iFood<br>Anúncios</p>
+                <p class="slide-bb2">Eleve<br>seu Negócio</p>
+                <p class="slide-bb3">Atraia<br>Clientes</p>
+                <p class="slide-bb4">Potencialize<br>Suas Vendas</p>
+                <p class="slide-bb5">Domine o<br>Mercado</p>
+                <p class="slide-bb6">Destaque-se<br>na Web!</p>
+            </div>
             <button class="after"><i class="fa-solid fa-chevron-right"></i></button>
         </div>
         <div class="balloon">
-            <p>iFood<br>Anúncios</p>
+            <p class="slide-b1">iFood<br>Anúncios</p>
+            <p class="slide-b2">Eleve<br>seu Negócio</p>
+            <p class="slide-b3">Atraia<br>Clientes</p>
+            <p class="slide-b4">Potencialize<br>Suas Vendas</p>
+            <p class="slide-b5">Domine o<br>Mercado</p>
+            <p class="slide-b6">Destaque-se<br>na Web!</p>
         </div>
         <div>
-            <h3 class="carrosseltext">Aumente as visitas da sua loja<br>impulsionando seu anúncio ao máximo.</h3>
+            <h3 class="carrosseltext slid-t1">Aumente as visitas da sua loja<br>impulsionando seu anúncio ao máximo.</h3>
+            <h3 class="carrosseltext slid-t2">Maximize o alcance da sua loja online e <br>impulsione seus anúncios!</h3>
+            <h3 class="carrosseltext slid-t3">Aumente o tráfego para o seu estabelecimento<br>com anúncios de destaque.</h3>
+            <h3 class="carrosseltext slid-t4">Potencialize suas vendas atraindo<br>mais clientes com anúncios eficazes.</h3>
+            <h3 class="carrosseltext slid-t5">Alcance o sucesso da sua loja aumentando a <br>visibilidade dos seus anúncios.</h3>
+            <h3 class="carrosseltext slid-t6">Melhore a presença online da sua loja <br>promovendo seus anúncios ao máximo.</h3>
         </div>
     </section>
     <section class="section3">
         <p class="text1">Contrate o<br>iFood Anúncios	<br>e <strong>aumente a <br>visibilidade da <br> sua loja</strong></p>
         <img class="img2" src="./images/img2.webp" alt="iFood images">
         <p class="text2">Mais visibilidade,<br>mais visitas. <br><strong>Quanto mais <br>visitas, mais <br>clientes.</strong></p>
+    </section>
+    <section class="section3small">
+        <div>
+            <img class="img1sec3" src="./Images/img5.jpg" alt="iFood images">
+            <p class="text1small"> Contrate o<br>iFood Anúncios	<br>e <strong>aumente a <br>visibilidade da <br> sua loja</strong></p>
+            <img class="img1sec3" src="./Images/img5.jpg" alt="iFood images">
+            <p class="text2small">Mais visibilidade,<br>mais visitas. <br><strong>Quanto mais <br>visitas, mais <br>clientes.</strong></p>
+        </div>
+        <img class="img2small" src="./images/img2.webp" alt="iFood images">
     </section>
     <div class="plans">
         <h2><strong>São 4 planos disponíveis<br></strong>de acordo com a <br> quantidade de visitas</h2>
@@ -106,12 +139,13 @@
         </div>
     </section>
     <section class="section5">
-            <img class="mkt" src="./images/img3.webp" alt="iFood Images">
-            <div class="container">
-                <img src="./images/Group 1.png" alt="iFood Images">
-                <p>Anuncie seu restaurante e <br><strong>apareça no topo</strong></p>
-                <button><a href="#">Começar agora</a></button>
-            </div>
+        <img class="mkt" src="./images/img3.webp" alt="iFood Images">
+        <div class="container">
+            <img src="./Images/img4.webp" alt="">
+            <p>Anuncie seu restaurante e <br><strong>apareça no topo</strong></p>
+            <button><a href="#">Começar agora</a></button>
+            <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="1191" height="601" viewBox="0 0 1191 601" fill="none"><path d="M0 50C0 22.3858 22.3858 0 50 0H1191V601H50C22.3858 601 0 578.614 0 551V450.75V375.625L58 300.5L0 225.375V150.25V50Z" fill="#EA0033"/></svg>
+        </div>
     </section>
     <footer>
         <hr class="hr">
@@ -151,5 +185,6 @@
             <a href="#">Código de conduta</a>
         </div>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>

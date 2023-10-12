@@ -1,0 +1,257 @@
+@media (max-width: 1600px) {
+  /* ------ SECTION 1 */
+  .box2 .text1 {
+    font-size: 210%;
+  }
+  .box2 .search-ico, .text1, .text2, .text3, .text4 {
+      top: 100px;
+  }
+  .box2 .search-ico {
+    font-size: 47.6px;
+  }
+
+  .box2 .text2, .box2 .text3 {
+    font-size: 47.6px;
+  }
+
+  .box2 .text4 {
+    font-size: 21px;
+  }
+  .imgtest{
+      transform: translateY(-300px);
+  }
+  /* ------ SECTION 5 */
+  .mkt{
+    height: 200px;
+    top: 200px;
+  }
+  .container img,
+  .container p,
+  .container button{
+    right: 100px;
+  }
+  .container img{
+    height: 200px;
+  }
+}
+@media(max-width:1300px){
+
+  /* ----- SECTION 3 */
+
+  .section3{
+    display: none;
+  }
+  .section3small{
+    display: block;
+  }
+  .section3small{
+    background-color:#f7f7f7;
+  }
+  .section3small div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text1small, .text2small{
+    margin: auto;
+    padding-bottom: 50px;
+    font-size: 24px;
+  }
+  .img1sec3{
+    position: relative;
+    width: 50px;
+    margin-right: 250px;
+    top: 50px;
+  }
+  .img2small{
+    width: 100vw;
+  }
+
+  /* ------ SECTION 4 */
+
+  .section4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 50px 0;
+    justify-items: center;
+  }
+
+  /* ------ SECTION 5 */
+
+  .section5{
+    justify-content:start;
+  }
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 1021px){
+  .smallheader, .newpoints, .balloon1{
+      display: none;
+  }
+  .points.second {
+    display: none;
+  }
+}
+  @media (max-width: 1020px) {
+  /* ------ MENU */
+  header{
+    width: 90%;
+    height: 150px;
+  }
+  .bigheader, .hamburger-menu, .menumq .menu-off{
+  display: none;
+  }
+  .smallheader{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .partner-buttonmq{
+    width: 100%;
+  }
+  .partner-buttonmq button{
+    width: 100%;
+    background-color: #EB0033;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+  }
+  .menuline2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menumq{
+    display: flex;
+  }
+  .menumq button{
+    margin-left:15px;
+    margin-right: 60px;
+    border: none;
+    background-color: #fff;
+  }
+  .menumq .menu-on{
+    font-size: 26px;
+    padding: 5px 10px;
+  }
+    
+
+  /* ------ SECTION 1 */
+  .section1{
+    overflow-x: hidden;
+  }
+  .box2{
+    height: 1050px;
+  }
+  .box2 .text1 {
+    font-size: 150%;
+  }
+    
+  .box2 .search-ico {
+    font-size: 34px;
+  }
+
+  .box2 .text2, .box2 .text3 {
+    font-size: 34px;
+  }
+
+  .box2 .text4 {
+    font-size: 30px;
+  }
+.search-ico, .text1, .text2, .text3, .text4{
+    transform: translate(0px,550px);
+  }
+  .imgtest{
+      transform: translate(130px,-300px);
+  }
+  /* ------ SECTION 2 */
+  .section2{
+    flex-direction: column;
+  }
+  .section2 .balloon{
+    display: none;
+  }
+  .points{
+    position: absolute;
+    top: 1500px;
+  }
+  .section2 .balloon1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #EB0033;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    margin: 0 50px;
+  }
+  .section2 .balloon1 p{
+    margin: auto;
+    font-size: 22px;
+  }
+  .section2 .balloon1::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #EB0033 transparent transparent transparent;
+  }
+  .carrossel{
+    margin-bottom: 50px;
+  }
+  .carrosseltext{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* ------ SECTION 3 */
+  
+  .img2{
+    width: 100vw;
+  }
+  
+  /* ------ SECTION 5 */
+  .section5{
+    display: flex;
+    flex-direction: column;
+  }
+  .mkt{
+    position:static;
+    width: 400px;
+    height: 200px; 
+    margin: -100px auto 0 auto;
+  }
+  .svg1{
+    display: none;
+  }
+  .container {
+    background-image: url(./Images/Rectangle\ 30.png);
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    justify-items: center;
+  }
+  .container img,
+  .container p,
+  .container button{
+      margin: auto;
+      right: 0px;
+  }
+  .container img{
+    top: -50px;
+    width: 50%;
+  }
+  .container p{
+    top: 70px;
+    font-size: 26px;
+  }
+}
